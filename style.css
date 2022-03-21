@@ -1,0 +1,131 @@
+:root {
+  --color: #050400;
+  --txt: rgb(24, 24, 24);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: var(--txt);
+  /* outline: 1px solid red; */
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+
+div {
+  display: block;
+}
+
+.picture {
+  background-image: url(./background.jpeg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+
+.content,
+.logo {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.logo {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 20vh;
+  gap: 1vw;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.eagle {
+  height: 10vh;
+}
+
+h1 {
+  color: white;
+  position: relative;
+  top: 25px;
+}
+
+.right-content {
+  width: 60vw;
+  background-color: #ebf37a;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.dummy-text {
+  font-weight: 500;
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+.pos {
+  padding-left: 3vw;
+}
+
+.remote-text {
+  margin: 40px 0 80px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.form {
+  background-color: rgb(213, 221, 107);
+  box-shadow: 0 10px 20px -2px rgb(166, 190, 79);
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form-title {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.input {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  opacity: 50%;
+}
+
+button {
+  background-color: rgba(8, 8, 8, 0);
+  color: var(--color);
+  font-weight: 700;
+  font-size: 1.2em;
+  border: 2px px solid var(--color);
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin: 40px 0;
+}
+
+.log-in {
+  display: flex;
+  gap: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color);
+  font-weight: 700;
+}
